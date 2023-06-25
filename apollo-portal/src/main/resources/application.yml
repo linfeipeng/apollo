@@ -30,7 +30,7 @@ spring:
       initialize-schema: never
   servlet:
     multipart:
-      max-file-size: 200MB  # import data configs
+      max-file-size: 200MB # import data configs
       max-request-size: 200MB
 server:
   port: 8070
@@ -42,11 +42,11 @@ server:
     session:
       cookie:
         # prevent csrf
-        same-site: Lax
+        same-site: LAX
 
 logging:
   file:
-    name: /opt/logs/apollo-portal.log
+    name: ./logs/apollo-portal.log
 
 management:
   health:

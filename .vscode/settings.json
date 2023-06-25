@@ -1,0 +1,21 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "java.jdt.ls.java.home": "/opt/homebrew/Cellar/openjdk/20.0.1/libexec/openjdk.jdk/Contents/Home",
+    "java.configuration.maven.userSettings": "/opt/homebrew/Cellar/maven/3.9.2/libexec/conf/settings.xml",
+    "maven.terminal.useJavaHome": true,
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "/opt/homebrew/Cellar/openjdk/20.0.1/libexec/openjdk.jdk/Contents/Home"
+        }
+    ],
+    "local-tomcat.tomcatInstances": [
+        {
+            "name": "tomcat10",
+            "catalinaHome": "/opt/homebrew/Cellar/tomcat/10.1.10",
+            "deploymentPort": 8080
+        }
+    ],
+    "local-tomcat.warDir": "target",
+}

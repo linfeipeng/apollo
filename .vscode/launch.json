@@ -1,0 +1,35 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AdminServiceApplication",
+            "request": "launch",
+            "mainClass": "com.ctrip.framework.apollo.adminservice.AdminServiceApplication",
+            "projectName": "apollo-adminservice",
+        },
+        {
+            "type": "java",
+            "name": "ConfigServiceApplication",
+            "request": "launch",
+            "mainClass": "com.ctrip.framework.apollo.configservice.ConfigServiceApplication",
+            "projectName": "apollo-configservice"
+        },
+        {
+            "type": "java",
+            "name": "PortalApplication",
+            "request": "launch",
+            "mainClass": "com.ctrip.framework.apollo.portal.PortalApplication",
+            "projectName": "apollo-portal",
+            "env": {
+                "dev_meta":"http://192.168.1.6:8080",
+                "fat_meta":"http://192.168.1.6:8080",
+                "uat_meta":"http://192.168.1.6:8080",
+                "pro_meta":"http://192.168.1.6:8080"
+            }
+        }
+    ]
+}
